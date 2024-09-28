@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:todo_app/Features/TodoList/Presentation/Pages/Mobile/mobile_home.dart';
+import 'package:todo_app/Features/TodoList/Presentation/Pages/Mobile/mobile_home_screen.dart';
 import 'package:todo_app/Features/TodoList/Presentation/Widgets/Dialogs/addtask_dialog.dart';
 
-class WidgetsAlign1 extends StatelessWidget {
-  const WidgetsAlign1({super.key});
+class MobileAlign1Widget extends StatelessWidget {
+  const MobileAlign1Widget({super.key});
 
   @override
   Widget build(BuildContext context) {

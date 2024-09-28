@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:todo_app/Config/theme.dart';
+import 'package:todo_app/Config/Theme/theme.dart';
 import 'package:todo_app/Features/TodoList/Presentation/Controller/todo_controller.dart';
-import 'package:todo_app/Features/TodoList/Presentation/Pages/pagesrouting.dart';
+import 'package:todo_app/Core/Utils/Routes/pagesrouting.dart';
 // import 'package:flutter_bloc/flutter_bloc.dart';
 
 class DrawerWidget extends StatelessWidget {

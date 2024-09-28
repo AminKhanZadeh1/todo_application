@@ -8,6 +8,7 @@ ThemeData lightMode = ThemeData(
     brightness: Brightness.light,
     colorScheme: const ColorScheme.light(),
     fontFamily: 'Cutta');
+
 ThemeData darkMode = ThemeData(
     primaryColor: Colors.grey[900],
     drawerTheme: DrawerThemeData(backgroundColor: Colors.grey[900]),

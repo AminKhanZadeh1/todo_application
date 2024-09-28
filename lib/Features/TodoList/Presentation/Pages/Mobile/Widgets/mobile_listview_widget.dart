@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:todo_app/Features/TodoList/Presentation/Controller/todo_controller.dart';
-import 'package:todo_app/Features/TodoList/Presentation/Pages/Mobile/mobile_home.dart';
+import 'package:todo_app/Features/TodoList/Presentation/Pages/Mobile/mobile_home_screen.dart';
 import 'package:todo_app/Features/TodoList/Presentation/Widgets/Dialogs/edittask_dialog.dart';
 
-class DesktopListViewContainer extends StatelessWidget {
-  const DesktopListViewContainer({super.key});
+class MobileListViewWidget extends StatelessWidget {
+  const MobileListViewWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
     var pColor = Theme.of(context).primaryColor;
     return Container(
         width: double.infinity,
-        height: Get.height < 400 ? Get.height * 0.35 : Get.height * 0.45,
+        height: Get.height * 0.6,
         decoration: BoxDecoration(
             color: pColor,
             borderRadius: const BorderRadius.only(
