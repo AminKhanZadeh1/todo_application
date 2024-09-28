@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:todo_app/Features/TodoList/Data/Entities/task_model.dart';
 import 'package:todo_app/Features/TodoList/Domain/Entities/task_entity.dart';
-import 'package:todo_app/Features/TodoList/Presentation/Pages/Mobile/mobile_home.dart';
+import 'package:todo_app/Features/TodoList/Presentation/Pages/Mobile/mobile_home_screen.dart';
 
 class EditDialog extends StatelessWidget {
   EditDialog({super.key});
@@ -91,8 +91,8 @@ class EditDialog extends StatelessWidget {
                       controller: controller.taskSubtitle,
                     ),
                   ),
-                  SizedBox(
-                    height: Get.height * 0.07,
+                  const SizedBox(
+                    height: 50,
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,

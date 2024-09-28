@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 import 'package:todo_app/Features/TodoList/Presentation/Binding/bindings.dart';
 import 'package:todo_app/Features/TodoList/Presentation/Pages/about.dart';
-import 'package:todo_app/responsive/responsive.dart';
+import 'package:todo_app/Core/Utils/Responsive%20Screens/responsive.dart';
 
 class PageRoutes {
   static const home = '/home';

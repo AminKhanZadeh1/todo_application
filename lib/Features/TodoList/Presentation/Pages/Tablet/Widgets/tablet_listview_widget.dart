@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:todo_app/Features/TodoList/Presentation/Controller/todo_controller.dart';
-import 'package:todo_app/Features/TodoList/Presentation/Pages/Mobile/mobile_home.dart';
+import 'package:todo_app/Features/TodoList/Presentation/Pages/Mobile/mobile_home_screen.dart';
 import 'package:todo_app/Features/TodoList/Presentation/Widgets/Dialogs/edittask_dialog.dart';
 
-class MobileListViewContainer extends StatelessWidget {
-  const MobileListViewContainer({super.key});
+class TabletListViewWidget extends StatelessWidget {
+  const TabletListViewWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
     var pColor = Theme.of(context).primaryColor;
     return Container(
         width: double.infinity,
-        height: Get.height * 0.6,
+        height: Get.height * 0.5,
         decoration: BoxDecoration(
             color: pColor,
             borderRadius: const BorderRadius.only(
@@ -94,13 +94,13 @@ class MobileListViewContainer extends StatelessWidget {
               } else {
                 return Center(
                     child: Container(
-                  width: 150,
-                  height: 150,
+                  width: 200,
+                  height: 200,
                   decoration: BoxDecoration(
                       image: const DecorationImage(
                           image: AssetImage('assets/patrick-list.gif'),
                           fit: BoxFit.fill),
-                      borderRadius: BorderRadius.circular(20),
+                      borderRadius: BorderRadius.circular(30),
                       border: Border.all(
                           width: 2,
                           color: pColor == Colors.white

@@ -5,6 +5,6 @@ import 'package:todo_app/Features/TodoList/Presentation/Controller/todo_controll
 class MyBindings implements Bindings {
   @override
   void dependencies() {
-    Get.lazyPut<TodoController>(() => TodoController(repo: TodoListRepoimpl()));
+    Get.put<TodoController>(TodoController(repo: TodoListRepoimpl()));
   }
 }
